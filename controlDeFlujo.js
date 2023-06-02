@@ -128,7 +128,7 @@ if( edadDeDavid > edadPermitidaDelAntro){
 
 
 */
-
+/*
 let hora=prompt ("ingresa la hora actual");
 
 if (hora < 12){
@@ -138,3 +138,92 @@ if (hora < 12){
 } else {
     console.log("buenas noches");
 }
+*/
+
+/*Switch
+
+Esta condicional nos permite hacer multiples operaciones y tomar decisiones en funcion de distintos estados de las variables. 
+Evalua una expresion comparando el valor de un dato o variable, y ejecutando la instruccion asociada a ese caso.
+
+
+ - case: Evalua el caso o condicion asociado que dispara un bloque de codigo
+ - break: Termina el proceso sin que tengamos que pasar por todas las iteraciones o casos.
+ - default: Termina el proceso en caso de que ninguna de las evaluaciones sea la correcta (similar al else)
+
+
+
+switch (expresion o condicion){
+    case valor1:
+        //Codigo que se ejecuta si la condicion es igual a valor1
+    break;
+
+    case valor2:
+        //Codigo que se ejecuta si la condicion es igual a valor2
+    break;
+
+    case valor3:
+        //Codigo que se ejecuta si la condicion es igual a valor3
+    break;
+
+    case valor4:
+        //Codigo que se ejecuta si la condicion es igual a valor4
+    break;
+
+    case valor5:
+        //Codigo que se ejecuta si la condicion es igual a valor5
+    break;
+
+    default:
+        //Ingresaste un piso incorrecto (un bloque de codigo que se ejecuta si no se cumple con ninguna de las condiciones anteriores)
+}
+
+//Ejemplo Switch
+*/
+
+let pisoDestino=prompt("ingresa el piso al que quieras ir");
+
+switch(pisoDestino){
+    case "1":
+        console.log("vamos al piso 1");
+    break;
+
+    case "2":
+        console.log("vamos al piso2");
+    break;
+
+    case "3":
+        console.log("vamos al piso 3");
+    break;
+    case "4":
+        console.log("vamos al piso 4");
+    break;
+
+    case "5":
+        console.log("vamos al piso 5");
+    break;12
+
+    default:
+        console.log("ingresaste un numero no valido");
+12
+
+}
+
+//Ejercicio de Evee
+
+var elementoEvolucion=prompt("ingresa el elemento con el que evolucionaras a tu pokemon");
+
+switch (elementoEvolucion){
+    case "piedraFuego":
+        console.log("tu Eevee ha evolucionado a flareon");
+    break;
+    case "piedraTrueno":
+        console.log("tu Eevee ha evolucionado a Jolteaon");
+    break;
+default:
+    console.log("ingresaste un numero no valido");
+
+}
+
+
+
+
